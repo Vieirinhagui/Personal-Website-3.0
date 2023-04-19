@@ -1,0 +1,46 @@
+nav {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav img#logo {
+  width: 20vw;
+}
+
+nav .social-media {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+nav .social-media img {
+  width: 7vw;
+}
+@media screen and (min-width: 768px) {
+  nav img#logo {
+    width: 8vw;
+  }
+  nav .social-media img {
+    width: 3vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  nav img#logo {
+    width: 5vw;
+  }
+
+  nav .social-media {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  nav .social-media img {
+    width: 30px;
+    height: 30px;
+  }
+}

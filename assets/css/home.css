@@ -1,0 +1,82 @@
+#home {
+  width: 100vw;
+  height: 85vh;
+  padding-top: 10vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: var(--bold);
+}
+
+h1 span {
+  color: var(--roxo-claro);
+}
+
+h3 {
+  font-weight: var(--light);
+  padding: 0 0 1rem 0;
+}
+
+.home-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+}
+.home-buttons a:nth-child(1) {
+  color: var(--branco);
+  background-color: var(--roxo-claro);
+  padding: 0.5rem;
+  font-weight: var(--light);
+}
+.home-buttons a:nth-child(2) {
+  color: var(--roxo-escuro);
+  padding: 0.5rem;
+  font-weight: var(--light);
+  border: 1px solid var(--roxo-claro);
+}
+.esquerda-home {
+  padding-left: 2rem;
+}
+.direita-home {
+  display: flex;
+  justify-content: center;
+}
+#avatar {
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  #home {
+    flex-direction: row;
+  }
+  .esquerda-home {
+    width: 50vw;
+    padding-left: 2rem;
+    margin-top: 4rem;
+  }
+  .direita-home {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  #avatar {
+    width: 100%;
+    height: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .esquerda-home {
+    padding-left: 10rem;
+  }
+  #avatar {
+    width: 90%;
+    height: 100%;
+  }
+}

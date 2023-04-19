@@ -1,0 +1,42 @@
+#contact {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact h2 {
+  text-align: center;
+}
+#contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact input:nth-child(1) {
+  width: 90vw;
+  margin: 1rem 5vw;
+  height: 40px;
+  padding: 1rem;
+  border: 2px solid var(--roxo-escuro);
+}
+
+#contact input:nth-child(1)::placeholder {
+  color: var(--cinza-claro);
+}
+#contact input:nth-child(2) {
+  color: var(--branco);
+  background-color: var(--roxo-escuro);
+  padding: 0 2rem;
+  height: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+    #contact form {
+        flex-direction: row;
+      }
+    #contact input:nth-child(1) {
+        width: 30vw;
+      }
+}

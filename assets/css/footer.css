@@ -1,0 +1,30 @@
+footer {
+  width: 100vw;
+  padding: 5rem 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer #logo-footer {
+  width: 20vw;
+}
+
+footer .media-footer {
+  display: flex;
+}
+footer .media-footer img {
+  width: 30px;
+  margin: 2rem 15px;
+}
+@media screen and (min-width: 768px) {
+  footer #logo-footer {
+    width: 10vw;
+  }
+}
+
+@media screen and (min-width:1024px){
+    footer #logo-footer {
+        width: 5vw;
+      }
+}
