@@ -23,6 +23,7 @@
   border: 2px solid var(--roxo-claro);
   border-radius: 50px;
   font-weight: var(--bold);
+  color: var(--roxo-claro);
 }
 
 @media screen and (min-width: 1024px) {
