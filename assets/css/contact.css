@@ -14,7 +14,7 @@
   justify-content: center;
   align-items: center;
 }
-#contact input:nth-child(1) {
+#contact input:nth-child(2) {
   width: 90vw;
   margin: 1rem 5vw;
   height: 40px;
@@ -22,10 +22,10 @@
   border: 2px solid var(--roxo-escuro);
 }
 
-#contact input:nth-child(1)::placeholder {
+#contact input:nth-child(2)::placeholder {
   color: var(--cinza-claro);
 }
-#contact input:nth-child(2) {
+#contact input:nth-child(4) {
   color: var(--branco);
   background-color: var(--roxo-escuro);
   padding: 0 2rem;
@@ -36,7 +36,7 @@
     #contact form {
         flex-direction: row;
       }
-    #contact input:nth-child(1) {
+    #contact input:nth-child(2) {
         width: 30vw;
       }
 }
